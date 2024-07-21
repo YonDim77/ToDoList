@@ -1,0 +1,60 @@
+<!-- CODE EXPLAINED CHANNEL -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Списък със задачи</title>
+    <link rel="shortcut icon" href="img/Yonko.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+	    .item p.text{
+            position: absolute;
+            padding:0;
+            margin:0;
+            font-size: 16px;
+            left:50px;
+            top:10px;
+            background-color: grey;
+	        color: white;
+            max-width:285px;
+        }
+	</style>
+
+</head>
+
+<body>
+	<div class = "container">
+		<div class = "header">
+			<div class = "clear">
+				<i class = "fa fa-refresh"></i>
+		
+			</div>
+			<div id = "date"></div>
+		
+		</div>
+		<div class = "content">
+			<ul id = "list">
+				<!--
+				<li class = "item">
+					<i class = "fa fa-circle-thin co" job = "complete" id = "0"></i>
+					<p class = "text">Да пия кафе</p>
+					<i class = "fa fa-trash-o de" job = "delete" id = "0"></i>
+				</li>-->
+			</ul>
+		</div>
+		<div class = "add-to-do">
+			<i class = "fa fa-plus-circle"></i>
+			<input type = "text" id = "input" placeholder = "Въведете задача" maxlength="32">
+		</div>
+		
+	</div>
+	<script src = "js/app.js"></script>
+
+</body>
+
+
+
+</html>
